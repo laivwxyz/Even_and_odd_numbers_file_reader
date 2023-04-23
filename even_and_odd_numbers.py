@@ -18,8 +18,10 @@ def even_odd():
             if input_num % 2 == 0:
                 # extract it from even.txt
                 output_even.write(str(input_num) + "\n")
-        # if odd,
-            # extract it from odd.txt
+            # if odd,
+            else:
+                # extract it from odd.txt
+                output_odd.write(str(input_num) + "\n")
 
 # __start__
 even_odd()
