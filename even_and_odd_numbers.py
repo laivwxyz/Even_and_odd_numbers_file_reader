@@ -6,9 +6,16 @@
 # the first text file will be named even.txt that will contains all even numbers extracted from the numbers.txt. The second text file will be named 
 # odd.txt that will contains all odd numbers extracted from the numbers.txt.
 
-# creating text files named numbers.txt (read), even.txt (append), odd.txt (append)
-# read numbers.txt line by line
-# if even,
-# extract it from even.txt
-# if odd,
-# extract it from odd.txt
+def even_odd():
+    # creating text files named numbers.txt (read), even.txt (append), odd.txt (append)
+    with open("numbers.txt") as input_file, \
+         open("even.txt", "a") as output_even, \
+         open("odd.txt", "a") as output_odd:
+        # read numbers.txt line by line
+            # if even,
+            # extract it from even.txt
+        # if odd,
+            # extract it from odd.txt
+
+# __start__
+even_odd()
