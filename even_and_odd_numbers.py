@@ -15,7 +15,9 @@ def even_odd():
         for line in input_file:
             input_num = int(line)
             # if even,
-            # extract it from even.txt
+            if input_num % 2 == 0:
+                # extract it from even.txt
+                output_even.write(str(input_num) + "\n")
         # if odd,
             # extract it from odd.txt
 
