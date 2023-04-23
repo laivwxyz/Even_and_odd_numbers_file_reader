@@ -1,3 +1,14 @@
 # Dela Cruz, Lailanie E. _ BSCPE 1-4
 # Assignment 4
 # Programming Exercises 1
+
+# Write a Python program that reads a text file named numbers.txt that contains 20 integers. The program will create two other text file; 
+# the first text file will be named even.txt that will contains all even numbers extracted from the numbers.txt. The second text file will be named 
+# odd.txt that will contains all odd numbers extracted from the numbers.txt.
+
+# creating text files named numbers.txt (read), even.txt (append), odd.txt (append)
+# read numbers.txt line by line
+# if even,
+# extract it from even.txt
+# if odd,
+# extract it from odd.txt
