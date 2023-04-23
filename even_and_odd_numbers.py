@@ -12,6 +12,8 @@ def even_odd():
          open("even.txt", "a") as output_even, \
          open("odd.txt", "a") as output_odd:
         # read numbers.txt line by line
+        for line in input_file:
+            input_num = int(line)
             # if even,
             # extract it from even.txt
         # if odd,
