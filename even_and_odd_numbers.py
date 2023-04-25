@@ -1,4 +1,4 @@
-# Dela Cruz, Lailanie E. _ BSCPE 1-4
+# Dela Cruz, Lailanie E. _ BSCpE 1-4
 # Assignment 4
 # Programming Exercises 1
 
@@ -23,5 +23,5 @@ def even_odd():
                 # extract it from odd.txt
                 output_odd.write(str(input_num) + "\n")
 
-# __start__
+# ==start ==
 even_odd()
